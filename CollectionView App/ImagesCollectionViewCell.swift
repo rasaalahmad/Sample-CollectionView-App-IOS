@@ -11,7 +11,7 @@ class ImagesCollectionViewCell: UICollectionViewCell {
     static let identifier = "ImagesCollectionViewCell"
     
     private let imageView:UIImageView = {
-        var imageView = UIImageView()
+        let imageView = UIImageView()
         imageView.contentMode = .scaleAspectFill
         imageView.clipsToBounds = true
         return imageView
@@ -20,19 +20,7 @@ class ImagesCollectionViewCell: UICollectionViewCell {
     override init(frame: CGRect) {
         super.init(frame: frame)
         contentView.addSubview(imageView)
-        let images = [
-            UIImageView(named: "image1"),
-            UIImageView(named: "image2"),
-            UIImageView(named: "image3"),
-            UIImageView(named: "image4"),
-            UIImageView(named: "image5"),
-            UIImageView(named: "image6"),
-            UIImageView(named: "image7"),
-            UIImageView(named: "image8"),
-            UIImageView(named: "image9"),
-            UIImageView(named: "image10"),
-        ].compactMap({ $0 })
-        imageView.image = images.randomElement()
+        imageView.image = UIImage(named: "image\(Int.random(in: 1...10))")
     }
 
     required init?(coder: NSCoder) {
@@ -46,6 +34,7 @@ class ImagesCollectionViewCell: UICollectionViewCell {
     
     override func prepareForReuse() {
         super.prepareForReuse()
+        //imageView.image = nil
     }
     
 }
