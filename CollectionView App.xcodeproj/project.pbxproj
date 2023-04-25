@@ -13,6 +13,7 @@
 		775D25E229F867C8009FFBFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 775D25E029F867C8009FFBFD /* Main.storyboard */; };
 		775D25E429F867CB009FFBFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 775D25E329F867CB009FFBFD /* Assets.xcassets */; };
 		775D25E729F867CB009FFBFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 775D25E529F867CB009FFBFD /* LaunchScreen.storyboard */; };
+		775D25EF29F86CE9009FFBFD /* ImagesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 775D25EE29F86CE9009FFBFD /* ImagesCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		775D25E329F867CB009FFBFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		775D25E629F867CB009FFBFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		775D25E829F867CB009FFBFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		775D25EE29F86CE9009FFBFD /* ImagesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				775D25E329F867CB009FFBFD /* Assets.xcassets */,
 				775D25E529F867CB009FFBFD /* LaunchScreen.storyboard */,
 				775D25E829F867CB009FFBFD /* Info.plist */,
+				775D25EE29F86CE9009FFBFD /* ImagesCollectionViewCell.swift */,
 			);
 			path = "CollectionView App";
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 			files = (
 				775D25DF29F867C8009FFBFD /* ViewController.swift in Sources */,
 				775D25DB29F867C8009FFBFD /* AppDelegate.swift in Sources */,
+				775D25EF29F86CE9009FFBFD /* ImagesCollectionViewCell.swift in Sources */,
 				775D25DD29F867C8009FFBFD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
